@@ -10,7 +10,7 @@ def __xmlrpc__():
     os.system("clear")
     time.sleep(1)
 
-        print(Fore.YELLOW + "[" + Fore.BLUE + "*" + Fore,YELLOW + "]" + Fore.BLUE + " ~ " + Fore.GREEN + "Hello . Welcome Back ;)")
+        print(Fore.YELLOW + "[" + Fore.BLUE + "*" + Fore.YELLOW + "]" + Fore.BLUE + " ~ " + Fore.GREEN + "Hello . Welcome Back ;)")
         time.sleep(1)
         target = input(Fore.YELLOW + "\n[" + Fore.RED + "!" + Fore.YELLOW + "]" + Fore.RED + " ~ " + Fore.BLUE + "Pleass Enter The Address Target " + Fore.GREEN + "==>  ")
         time.sleep(1)
