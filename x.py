@@ -9,7 +9,7 @@ from colorama import Fore
 def __xmlrpc__():
     os.system("clear")
     time.sleep(1)
-    try:
+
         print(Fore.YELLOW + "[" + Fore.BLUE + "*" + Fore,YELLOW + "]" + Fore.BLUE + " ~ " + Fore.GREEN + "Hello . Welcome Back ;)")
         time.sleep(1)
         target = input(Fore.YELLOW + "\n[" + Fore.RED + "!" + Fore.YELLOW + "]" + Fore.RED + " ~ " + Fore.BLUE + "Pleass Enter The Address Target " + Fore.GREEN + "==>  ")
@@ -35,11 +35,5 @@ def __xmlrpc__():
                 print(Fore.GREEN +"\n[+] " + Fore.GREEN + q)
             else:
                 print(Fore.RED + "\n[-] " + Fore.RED + q)
-    except:
-        try:
-            print(Fore.YELLOW + "Pleass Enter Go To The Mano ;)")
-            a = input("")
-            sys.exit()
-        except:
-            pass
+
 __xmlrpc__()
